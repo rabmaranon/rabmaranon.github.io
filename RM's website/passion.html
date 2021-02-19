@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rachelle Maranon's Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="ham">
+      <h1 class="logo">Rachelle Marañon <img src="./img/like.png" alt=""></h1>
+      <a href="#main-menu"
+        id="main-menu-toggle"
+        class="menu-toggle"
+        aria-label="Open main menu">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+      </a>
+    </div>
+    
+    
+    
+    <nav id="main-menu" class="main-menu" aria-label="Main menu">
+      <a href="#main-menu-toggle"
+         id="main-menu-close"
+         class="menu-close"
+         aria-label="Close main menu">
+        <span class="sr-only">Close main menu</span>
+        <span class="fa fa-close" aria-hidden="true"></span>
+      </a>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="passion.html">Passion</a></li>
+      </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"
+       tabindex="-1"
+       aria-hidden="true" hidden></a>
+  </header>
+
+    <!-- passion ELement -->
+    <div class="passion pad">
+        <h1 class="title">Passion</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="./img/design.svg" alt="">
+                <h3>Design</h3>
+                <p>I think design is like a “magic word”. If a service or product is the magic to solve a problem, it is the role of the design to act an intermediary for the user to master it. We strive everyday to create a “magic wand” that matches the user. </p>
+            </div>
+            <div class="card">
+                <img src="./img/technology.svg" alt="">
+                <h3>Techonology</h3>
+                <p>Technology has the power to change the lives of the world and individuals, as the phrase “well-developed science and technology is indistinguishable from magic.” It's my goal to promote innovation. 
+                </p>
+            </div>
+            <div class="card">
+                <img src="./img/graphic.svg" alt="">
+                <h3>Story</h3>
+                <p>Story-like contents gives a great impression to me. Stories can get people’s attention and make things easier to understand and remember. I believe that if you can study every story pattern, you gain a big return. </p>
+            </div>
+        </div>
+    </div>
+    <div class="blog__sec pad">
+        <div class="title">Her Tech Hour</div>
+        <div class="post">
+            <h1 class="post__title">What is HTH?</h1>
+            <a href="individualPost.html"><img src="./img/blogposts2" alt="post Img"></a>
+            <p class="post__des">Get to know the mission of this non-profit and the women behind it.</p>
+            <p class="post__date">Posted on: 16 Feb, 2020</p>
+        </div>
+        <div class="post">
+            <h1 class="post__title">Building the Best Version of Your Resume</h1>
+            <a href="individualPost2.html"><img src="./img/hth.jpeg" alt="post img"></a>
+            <p class="post__des">A webinar that will help you craft a resume that will land you a job in a FAANG company!</p>
+            <p class="post__date">Posted on: 16 Feb, 2020</p>
+        </div>
+        <div class="post">
+            <h1 class="post__title">Filipinas Building Tech Communities</h1>
+            <a href="individualPost3.html"><img src="./img/filwic.png" alt="post img"></a>
+            <p class="post__des">
+              Learn more about the Filipinas in Computing community and hear from four amazing Filipinas who are building tech communities across the Philippines and in the US. </p>
+            <p class="post__date">Posted on: 16 Feb, 2020</p>
+        </div>
+    </div>
+</body>
+</html>
